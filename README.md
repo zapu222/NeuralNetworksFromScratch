@@ -9,8 +9,9 @@ of length *n* depending upon the number of classes (2 classes for 0-1 and 5 clas
 
 1. Simply create a dataset class similar to those in datasets.py
 2. Create the NN architecture similar to the examples provided; keep in mind shape of inputs and outputs must correspond to the data
-3. Initialize the NN class
-4. Train the NN using NN.train()
-5. Test the NN using NN.test()
+  - Hidden layers can be added by simply adding a new line to the txt file in the format: 'Hidden_n: num'
+4. Initialize the NN class
+5. Train the NN using NN.train()
+6. Test the NN using NN.test()
 
 A full example as well as metrics and visualized predictions can be found in ex.ipynb.
