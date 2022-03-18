@@ -1,0 +1,4 @@
+Input: 784
+Hidden_1: 400
+Hidden_2: 200
+Output: 5
