@@ -1,6 +1,6 @@
 # Python, Neural Networks from Scratch - Zachary Pulliam
 
-This code was written in order to implement a neural network from scratch that will be used to predict output 
+This code was written in order to implement flexible neural networks from scratch that will be used to predict output 
 for two subsets of the MNIST dataset, the first containing only 0's and 1's and the second containing 0's to 4's.
 
 The NN class can be used on any other dataset as long as the inputs and outputs are formatted correctly. Inputs are formatted as a list of arrays, ;
