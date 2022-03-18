@@ -14,7 +14,7 @@ from datasets import MNISTDataset_0_4_train, MNISTDataset_0_4_test
 """ Variables for the user to change"""
 ROOT = ''  # path to root folder
 arch_0_1 = os.path.join(ROOT, 'architecture_0_1.txt')  # path to architecture file 0 to 1 classification
-arch_0_4 = os.path.join(ROOT, 'architecture_0_1.txt')  # path to architecture file 0 to 4 classification 
+arch_0_4 = os.path.join(ROOT, 'architecture_0_4.txt')  # path to architecture file 0 to 4 classification 
 epochs = 10  # number of epochs to train for
 
 """ Choose between 0 to 1 or 0 to 4 classification for MNIST """
@@ -45,6 +45,6 @@ if __name__ == '__main__':
     if k == 1:
         run_0_1()
     elif k == 4:
-        run_0_1()
+        run_0_4()
     else:
         print('Set k equal to 1 or 4')
